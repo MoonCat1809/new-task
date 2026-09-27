@@ -1,0 +1,60 @@
+# === Build artifacts ===
+build/
+target/
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+*.so
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.zip
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === Go ===
+go/vendor/
+go/cmd/demo/demo.exe
+
+# === Rust ===
+rust/target/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+python/.pytest_cache/
+
+# === Lua ===
+*.luac
+
+# === CMake ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+ninja.build
+.ninja_deps
+.ninja_log
+build.ninja
+
+# === Windows ===
+*.user
+*.suo
+*.vs/

@@ -1,0 +1,12 @@
+{
+  "name": "ssetcolor",
+  "version": "1.0.0",
+  "description": "Node.js bindings for the ssetcolor terminal color library",
+  "main": "ssetcolor.js",
+  "scripts": {
+    "test": "node test.js",
+    "demo": "node demo.js"
+  },
+  "keywords": ["terminal", "color", "ansi", "ssetcolor"],
+  "license": "MIT"
+}
