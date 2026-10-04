@@ -48,8 +48,8 @@ def food_apple():
     two_tip=['normal',random_vibor()]
     for food_type in two_tip:
         while True:
-            x = random.randint(0, 23) * rectangle
-            y = random.randint(0, 23) * rectangle
+            x = random.randint(2, 21) * rectangle
+            y = random.randint(2, 21) * rectangle
             if (x, y) not in snake and (x, y) not in [a[:2]for a in apple]:
                 apple.append((x, y, food_type))
                 break
